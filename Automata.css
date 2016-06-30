@@ -1,0 +1,41 @@
+.AutomataContainer {
+	position: relative;
+}
+.AutomataCanvas {
+	background: black;
+	display: block;
+}
+.AutomataMenu {
+	margin: 5px 0;
+}
+.AutomataInput {
+	box-sizing: border-box;
+	font: inherit;
+	margin-right: 5px;
+	padding: 2px;
+	text-align: center;
+	vertical-align: top;
+	width: 50px;
+}
+.AutomataButton {
+	background: none;
+	cursor: pointer;
+	display: inline;
+	font: inherit;
+	margin-right: 5px;
+	outline: none;
+	padding: 5px;
+}
+button.AutomataButton {
+	border: 1px solid #bbb;
+	border-radius: 5px;
+	outline: none;
+	padding: 3px 5px;
+	vertical-align: top;
+}
+.AutomataButtonSelected {
+	background: #bbf;
+}
+.AutomataLoading {
+	width: 26px;
+}
